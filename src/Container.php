@@ -3,6 +3,7 @@
 namespace Choult\Tote;
 
 use Choult\Tote\Container\Exception\NotFoundException;
+use Interop\Container\ContainerInterface as InteropContainer;
 
 /**
  * Class Container
@@ -11,7 +12,7 @@ use Choult\Tote\Container\Exception\NotFoundException;
  * @package Tote
  * @author Christopher Hoult <chris@choult.com>
  */
-class Container implements ContainerInterface
+class Container implements ContainerInterface, InteropContainer
 {
     /**
      * @type array The main array of items in this Container

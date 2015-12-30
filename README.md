@@ -1,7 +1,8 @@
 Tote
 ====
 
-A set of simple PSR-11 compliant containers - nothing special!
+A set of simple PSR-11 and [Container Interop](https://github.com/container-interop/container-interop) compliant
+containers - nothing special!
 
 See (https://github.com/container-interop/fig-standards/blob/master/proposed/container.md) for more details
 
@@ -23,6 +24,11 @@ or via `composer.json`:
     }
 }
 ```
+
+Change Log
+----------
+
+A summary of changes can be seen in the [change log](CHANGELOG.md).
 
 Contributing
 ------------

@@ -2,6 +2,8 @@
 
 namespace Choult\Tote\Container\Exception;
 
+use Interop\Container\Exception\NotFoundException as InteropNotFoundException;
+
 /**
  * Concrete implementation of NotFoundExceptionInterface
  *
@@ -9,7 +11,7 @@ namespace Choult\Tote\Container\Exception;
  * @package Tote
  * @author Christopher Hoult <chris@choult.com>
  */
-class NotFoundException extends \RuntimeException implements NotFoundExceptionInterface
+class NotFoundException extends \RuntimeException implements NotFoundExceptionInterface, InteropNotFoundException
 {
 
 }

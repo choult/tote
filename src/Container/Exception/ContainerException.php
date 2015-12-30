@@ -2,6 +2,8 @@
 
 namespace Choult\Tote\Container\Exception;
 
+use Interop\Container\Exception\ContainerException as InteropContainerException;
+
 /**
  * Concrete implementation of ContainerExceptionInterface
  *
@@ -9,7 +11,7 @@ namespace Choult\Tote\Container\Exception;
  * @package Tote
  * @author Christopher Hoult <chris@choult.com>
  */
-class ContainerException extends \RuntimeException implements ContainerExceptionInterface
+class ContainerException extends \RuntimeException implements ContainerExceptionInterface, InteropContainerException
 {
 
 }
