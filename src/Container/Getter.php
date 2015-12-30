@@ -8,7 +8,9 @@ use Choult\Tote\Container;
 /**
  * A Container that converts dot-notation ids into a getter to call on itself
  *
- * @package Choult\Container
+ * @license http://opensource.org/licenses/MIT
+ * @package Tote
+ * @author Christopher Hoult <chris@choult.com>
  */
 abstract class Getter extends Container
 {

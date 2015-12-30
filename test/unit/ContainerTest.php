@@ -5,6 +5,10 @@ namespace Choult\Tote\Test;
 use \Choult\Tote\Container;
 
 /**
+ * @license http://opensource.org/licenses/MIT
+ * @package Tote
+ * @author Christopher Hoult <chris@choult.com>
+ *
  * @coversDefaultClass \Choult\Tote\Container
  */
 class ContainerTest extends \PHPUnit_Framework_TestCase

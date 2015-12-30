@@ -8,7 +8,9 @@ use Choult\Tote\Container;
 /**
  * A Container that is suitable for storing parameters
  *
- * @package Choult\Container
+ * @license http://opensource.org/licenses/MIT
+ * @package Tote
+ * @author Christopher Hoult <chris@choult.com>
  */
 class Parameter extends Container
 {

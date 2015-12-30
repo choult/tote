@@ -5,6 +5,10 @@ namespace Choult\Tote\Test;
 use \Choult\Tote\Container\Parameter;
 
 /**
+ * @license http://opensource.org/licenses/MIT
+ * @package Tote
+ * @author Christopher Hoult <chris@choult.com>
+ *
  * @coversDefaultClass \Choult\Tote\Container\Parameter
  */
 class ParameterTest extends \PHPUnit_Framework_TestCase

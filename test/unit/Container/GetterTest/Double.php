@@ -7,7 +7,9 @@ use \Choult\Tote\Container\Getter;
 /**
  * A quick and dirty double for testing the getter container
  *
- * @package Choult\Tote\Test
+ * @license http://opensource.org/licenses/MIT
+ * @package Tote
+ * @author Christopher Hoult <chris@choult.com>
  */
 class Double extends Getter
 {

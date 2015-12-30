@@ -7,7 +7,9 @@ use Choult\Tote\Container\Exception\NotFoundException;
 /**
  * Class Container
  *
- * @package Choult\Tote
+ * @license http://opensource.org/licenses/MIT
+ * @package Tote
+ * @author Christopher Hoult <chris@choult.com>
  */
 class Container implements ContainerInterface
 {

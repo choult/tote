@@ -6,6 +6,10 @@ use \Mockery;
 use \Choult\Tote\Test\Container\GetterTest\Double;
 
 /**
+ * @license http://opensource.org/licenses/MIT
+ * @package Tote
+ * @author Christopher Hoult <chris@choult.com>
+ *
  * @coversDefaultClass \Choult\Tote\Container\Getter
  */
 class GetterTest extends \PHPUnit_Framework_TestCase
