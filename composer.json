@@ -28,5 +28,8 @@
     },
     "scripts": {
         "test": "./vendor/bin/phpunit; ./vendor/bin/phpcs --standard=psr2 src test; ./vendor/bin/phpmd src,test text ./phpmd.xml.dist,unusedcode,design"
+    },
+    "provide": {
+        "container-interop/container-interop": "1.1.0"
     }
 }
